@@ -1,8 +1,0 @@
-[Fatal Error] test02.out:1:1:Premature end of file.
-org.xml.sax.SAXParseException; systemId: file:///home/adam/Documents/Projects/ipp/test/logs/test02.out; lineNumber: 1; columnNumber: 1; Premature end of file.
-	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1239)
-	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:649)
-	at com.a7soft.examxml.ExamXMLHandler.loadXML(ExamXMLHandler.java:111)
-	at com.a7soft.examxml.ExamXML.loadXML(ExamXML.java:246)
-	at com.a7soft.examxml.ExamXML.compare(ExamXML.java:213)
-	at com.a7soft.examxml.ExamXML.main(ExamXML.java:383)
