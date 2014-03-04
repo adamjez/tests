@@ -1,5 +1,5 @@
 #TEST15
-#AUTOR: puvodni testy
+#AUTOR: xjezad00
 
 CommandLine =--input=./tests/test15.in --query='SELECT room FROM book' -n
 

@@ -1,5 +1,5 @@
 #TEST13
-#AUTOR: puvodni testy
+#AUTOR: xjezad00
 
 CommandLine =--input=./tests/NEEXISTUJICIFILE.in --query='SELECT room FROM book' -n
 

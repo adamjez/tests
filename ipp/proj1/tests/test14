@@ -1,5 +1,5 @@
 #TEST14
-#AUTOR: puvodni testy
+#AUTOR: xjezad00
 
 CommandLine =--input=./tests/test11.in --qf='NEEXISTUJICISOUBOR' -n
 

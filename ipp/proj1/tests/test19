@@ -1,7 +1,7 @@
 #TEST19
 #AUTOR: xjezad00
 
-CommandLine =--input=./tests/test11.in --query='SELECT library FROM ROOT WHERE book.id CONTAINS 145' --root=ROOT -n
+CommandLine =--input=./tests/test11.in --query='SELECT library FROM ROOT WHERE 8book.id = 145' --root=ROOT -n
 
 
 ExpectedReturnValue = 80
