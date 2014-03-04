@@ -1,7 +1,7 @@
 #TEST10
 #AUTOR: puvodni testy
 
-CommandLine =--input=./tests/test10.in --qf=./tests/test10.qu
+CommandLine =--input=./tests/test11.in --qf=./tests/test10.qu
 
 ExpectedReturnValue = 80
 
