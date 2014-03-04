@@ -1,12 +1,13 @@
-#TEST12
+#TEST20
 #AUTOR: xjezad00
 
-CommandLine =--input=./tests/test11.in --query='SELECT room FROM book' -n
+CommandLine =--input=./tests/test11.in --query='SELECT library FROM ROOT WHERE book.id = 14G5' --root=ROOT -n
 
-ExpectedReturnValue = 0
+
+ExpectedReturnValue = 80
 
 # Check if is not stderr empty:  Off - 0 On - 1 
-CheckStderr = 1
+CheckStderr = 0
 
 # Check if is stdout empty:  Off - 0 On - 1 
 CheckStdout = 0
