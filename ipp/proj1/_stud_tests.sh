@@ -8,7 +8,12 @@
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
 TASK=../xqr
-INTERPRETER="php"
+if [ "`hostname`" == "merlin.fit.vutbr.cz" ] ; then
+    INTERPRETER="php -d open_basedir=\"\""
+else
+    INTERPRETER="php"
+fi
+
 EXTENSION=php
 #INTERPRETER=python3
 #EXTENSION=py
