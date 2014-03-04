@@ -1,0 +1,11 @@
+Struktura pripravena pro spousteni
+
+/xqr.php
+/test/_stud_tests.sh
+/test/tests		#testy
+/test/logs		#vysledky jednotlivych testu
+/test/java 		#program v jave na porovnani xml
+
+Spusteni:
+/test$ ./_stud_tests.sh
+ 

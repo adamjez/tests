@@ -1,0 +1,15 @@
+#TEST01
+#AUTOR: puvodni testy
+
+CommandLine = --help
+
+ExpectedReturnValue = 0
+
+# Check if stderr is not empty:  Off - 0 On - 1 
+CheckStderr = 1
+
+# Check if stdout is empty:  Off - 0 On - 1 
+CheckStdout = 1
+
+# Compare stdout with ref:  Off - 0 On - 1 	(ref. file: [TestName].out)
+CmpStdout = 0

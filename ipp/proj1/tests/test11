@@ -1,0 +1,15 @@
+#TEST11
+#AUTOR: puvodni testy
+
+CommandLine =--input=./tests/test11.in --qf=./tests/test11.qu --query='SELECT book FROM catalog'
+
+ExpectedReturnValue = 1
+
+# Check if is not stderr empty:  Off - 0 On - 1 
+CheckStderr = 0
+
+# Check if is stdout empty:  Off - 0 On - 1 
+CheckStdout = 0
+
+# Compare stdout with ref:  Off - 0 On - 1 	(ref. file: ./tests/[TestName].out)
+CmpStdout = 0
