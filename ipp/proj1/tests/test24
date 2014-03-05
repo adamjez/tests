@@ -1,0 +1,20 @@
+#TEST24
+#AUTOR: xjezad00
+
+CommandLine =--input=./tests/test11.in --query='SELECT room FROM library WHERE book CONTAINS "XML"' --root=ROOT -n
+
+
+ExpectedReturnValue = 4
+
+# Check if is not stderr empty:  Off - 0 On - 1 
+CheckStderr = 0
+
+# Check if is stdout empty:  Off - 0 On - 1 
+CheckStdout = 0
+
+# Compare stdout with ref:  Off - 0 On - 1 	(ref. file: ./tests/[TestName].out)
+CmpStdout = 0
+
+# Check if is not stdout empty: Off - 0 On - 1
+CheckStdoutNot = 1
+
