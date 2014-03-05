@@ -1,0 +1,20 @@
+#TEST22
+#AUTOR: xjezad00
+
+CommandLine =--input=./tests/test11.in --query='SELECT book FROM ROOT WHERE genre = "Computer" ORDER BY price DESC' --root=ROOT
+
+
+ExpectedReturnValue = 0
+
+# Check if is not stderr empty:  Off - 0 On - 1 
+CheckStderr = 1
+
+# Check if is stdout empty:  Off - 0 On - 1 
+CheckStdout = 1
+
+# Compare stdout with ref:  Off - 0 On - 1 	(ref. file: ./tests/[TestName].out)
+CmpStdout = 1
+
+# Check if is not stdout empty: Off - 0 On - 1
+CheckStdoutNot = 0
+
