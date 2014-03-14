@@ -21,7 +21,7 @@ do
 
 	if [ $? -ne 0 ]; then 
 		echo -e "${red}Neuspech${endRed}"
-		printf "Neuspec\n\n" >> logfile
+		printf "Neuspech\n\n" >> logfile
 	else
 		((succes++));
 		echo -e "${green}Uspech${endGreen}"
